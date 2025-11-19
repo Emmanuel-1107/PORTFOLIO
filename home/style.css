@@ -13,6 +13,7 @@ html{
 body{
     width: 100%;
     height: 100vh;
+    margin-bottom: 100%;
     overflow-x: hidden;
     background-color: black;
     color: white;
@@ -145,18 +146,35 @@ span{
 }
 @keyframes words{
     0%, 20%{
-        content: "Loving";
+        content: "Emmanuel";
 }
 21%, 40%{
-        content: "Stubborn";
+        content: "Εμμανουήλ";
 }
 41%, 60%{
-        content: "Learning";
+        content: "Emmanuel";
 }
 61%, 80%{
-        content: "Playing";
+        content: "Εμμανουήλ";
 }
 81%, 100%{
-        content: "Trying";
+        content: "Emmanuel";
 }
+}
+.glaze {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    width: 100%;
+    max-width: 900px; 
+    margin: 0 auto; 
+    margin-top: 30px;
+}
+
+.glaze img {
+    width: 100%;
+    height: auto;
+    border-radius: 3px; 
+    object-fit: cover;
 }
