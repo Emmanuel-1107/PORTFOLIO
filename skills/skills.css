@@ -55,16 +55,19 @@ nav a{
 nav a:hover,nav a.active{
     color: purple;
 }
-.container1 {
-    display: flex;
-    background-image: url(/imgs/code.jpg);
-    background-position: 90%;
-    margin-top: 2vh;
-    margin-left: 10vh;
-    margin-right: 10vh;
-    height: 50vh;
-    width: 90%;
-    border-radius: 10px;
+.head-container {
+    height: 30vh;
+    width: 100%;
+    background-image: url(/imgs/konwaricoder.jpg); 
+    background-position: 50%;
+}
+.text{
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: x-large;
 }
 .skill-container{
     display: flex;
@@ -72,14 +75,74 @@ nav a:hover,nav a.active{
     margin-top: 20vh;
 
 }
-.skill-container h1{
-    font-size: 50px;
-    color: purple;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.container2{
+.title1{
     margin-left: 70px;
-    margin-top: 20vh;
-    padding-bottom: 50px;
+    margin-top: 40vh;
     font-size: large;
+}
+h3{
+    margin-top: 10vh;
+    margin-left: 70px;
+    font-size: medium;
+}
+.images-container {
+    margin-top: 2vh;
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: auto auto auto;;
+    gap: 30px;
+}
+.images-container img{
+    height: 30vh;
+    transition: 1s ease-in-out;
+}
+.images-container img:hover{
+    transform: scale(1.5);
+}
+.images-container2 {
+    margin-top: 2vh;
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: auto auto auto;;
+    gap: 30px;
+}
+.images-container2 img{
+    height: 30vh;
+    transition: 1s ease-in-out;
+}
+.images-container2 img:hover{
+    transform: scale(1.5);
+}
+.title2{
+    margin-top: 30vh;
+    margin-bottom: 2vh;
+    margin-left: 70px;
+    font-size: large;
+}
+.images-container3 {
+    margin-top: 2vh;
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: auto auto auto;;
+    gap: 30px;
+}
+.images-container3 img{
+    height: 30vh;
+    transition: 1s ease-in-out;
+}
+.images-container3 img:hover{
+    transform: scale(1.5);
+}
+.title3{
+    height: 20%;
+    margin-top: 30vh;
+    margin-bottom: 2vh;
+    margin-left: 70px;
+    font-size: large;
+}
+h2{
+    transition: ease-in-out 0.5s;
+}
+h2:hover{
+    color: purple;
 }
